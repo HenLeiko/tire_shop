@@ -3,8 +3,11 @@
 
 namespace app\config;
 
-
-class MainController
+use app\core\Controller;
+class MainController extends Controller
 {
-
+    public function index()
+    {
+        echo 'Главная';
+    }
 }
